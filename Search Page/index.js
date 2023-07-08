@@ -6,9 +6,9 @@ let cardContainer = document.querySelector(".cards-container");
 let containerWidth = cardContainer.getBoundingClientRect().width;
 
 prevBtn.addEventListener("click", () => {
-    cardContainer.scrollLeft -= (containerWidth*0.25);
+    cardContainer.scrollLeft -= (containerWidth*0.23);
 })
 
 nextBtn.addEventListener("click", () => {
-    cardContainer.scrollLeft += (containerWidth*0.25);
+    cardContainer.scrollLeft += (containerWidth*0.23);
 })
