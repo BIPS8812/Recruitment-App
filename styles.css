@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  color: beige;
+}
+
+body {
+  background-color: #23565c;
+  overflow: hidden;
+}
+
+/* Navbar Section */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+.navbar-left {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-name i {
+  color: white;
+}
+
+.navbar-right {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-right ul {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+.navbar-link a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.75;
+}
+
+.navbar-link a:hover {
+  opacity: 1;
+}
+
+.navbar-right .register {
+  padding: 0.5rem 1rem;
+  background-color: beige;
+  border: none;
+  border-radius: 2rem;
+  border-bottom-right-radius: 0;
+  opacity: 0.75;
+}
+
+.navbar-right .register:hover {
+  opacity: 1;
+}
+
+.navbar-right .register a {
+  text-decoration: none;
+  color: #004848;
+}
+
+/* Hero Section */
+.container {
+  padding: 2rem 7rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-container {
+  width: 50%;
+}
+
+.left-container .hero-header {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: #fefefe;
+}
+
+.left-container .hero-text {
+  font-weight: 300;
+  margin-bottom: 3rem;
+}
+
+.left-container .timeline {
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 0.75rem;
+}
+
+.left-container .timeline .time {
+  color: #fefefe;
+}
+
+.left-container .lines {
+  position: relative;
+  width: 90%;
+}
+
+.left-container .lines .timelineStruc {
+  border: none;
+  border-top: 0.1px solid #fefefe;
+}
+
+.left-container .lines .dots {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: translate(2%, -55%);
+}
+
+.left-container .description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.6rem;
+  font-size: 0.75rem;
+}
+
+.left-container .description .desci {
+  color: #87dde7;
+}
+
+.hire {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 3rem;
+  color: #23565c;
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  -webkit-box-shadow: 21px 19px 11px -8px rgb(13, 46, 49);
+  -moz-box-shadow: 21px 19px 11px -8px rgb(13, 46, 49);
+  box-shadow: 21px 19px 11px -8px rgb(13, 46, 49);
+}
+
+.right-container .circle1 {
+    background-color: #D9D9D9;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 100%;
+}
+
+.right-container .circle2 {
+    background-color: #D9D9D9;
+    width: 9rem;
+    height: 9rem;
+    border-radius: 100%;
+    margin-top: 1rem;
+    transform: translateX(-50%);
+}
+
+.right-container .circle3 {
+    background-color: #D9D9D9;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 100%;
+    margin-top: 1rem;
+    transform: translateX(-120%);
+}
+
+.right-container .circle4 {
+    background-color: #D9D9D9;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    margin-top: 1rem;
+    transform: translateX(-250%);
+}

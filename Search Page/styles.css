@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    color: beige;
+}
+
+body {
+    background-color:#23565C;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.navbar-left {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-name i {
+    color: white;
+}
+
+.navbar-right {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-right ul {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navbar-link a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.75;
+}
+
+.navbar-link a:hover {
+    opacity: 1;
+}
+
+.navbar-right .register {
+    padding: 0.5rem 1rem;
+    background-color: beige;
+    border: none;
+    border-radius: 2rem;
+    border-bottom-right-radius: 0;
+    opacity: 0.75;
+}
+
+.navbar-right .register:hover {
+    opacity: 1;
+}
+
+.navbar-right .register a {
+    text-decoration: none;
+    color: #004848;
+}
+
+/* Hero Section  */
+.container {
+    margin: 3rem 5rem;
+    padding: 0 5rem;
+    position: relative;
+}
+
+.container .cards-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.container .cards-container::-webkit-scrollbar {
+    display: none;
+}
+
+.container .cards-container .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 0 1rem;
+    padding: 1.5rem 3rem;
+    background-color: #4E8187;
+    border-radius: 2rem;
+}
+
+.container .cards-container .cards img{
+    width: 7rem;
+    border-radius: 100%;
+    margin-bottom: 1rem;
+}
+
+.container .cards-container .cards .name {
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+    color: #E2CF8B;
+}
+
+.container .cards-container .cards p {
+    text-align: center;
+    width: 150%;
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+    color: #E2CF8B;
+}
+
+.container .cards-container .cards .select {
+    margin-top: 1rem;
+    background-color: #E2CF8B;
+    color: #fefefe;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 2rem;
+    border-bottom-right-radius: 0;
+    opacity: 0.85;
+}
+
+.container .cards-container .cards .select:hover {
+    opacity: 1;
+}
+
+.container .buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 13%;
+    margin-top: 3rem;
+}
+
+.container .buttons .hire-now {
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 3rem;
+    background-color: #2DA5E8;
+    color: #fefefe;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    -webkit-box-shadow: 21px 19px 11px -8px rgb(13, 46, 49);
+    -moz-box-shadow: 21px 19px 11px -8px rgb(13, 46, 49);
+    box-shadow: 21px 19px 11px -8px rgb(13, 46, 49);
+}
+.container .buttons .hire-now img {
+    width: 1rem;
+    transform: translateY(15%);
+}
+
+.container .buttons .search-more {
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 3rem;
+    color: #23565c;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    -webkit-box-shadow: 21px 19px 11px -8px rgb(13, 46, 49);
+    -moz-box-shadow: 21px 19px 11px -8px rgb(13, 46, 49);
+    box-shadow: 21px 19px 11px -8px rgb(13, 46, 49);
+}
+
+.container .left-arrow {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    cursor: pointer;
+}
+
+.container .right-arrow {
+    position: absolute;
+    right: 0;
+    top: 40%;
+    cursor: pointer;
+}
